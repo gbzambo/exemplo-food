@@ -1,16 +1,75 @@
-# React + Vite
+# Exemplo Food 🍔
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simulador de aplicativo de delivery desenvolvido durante as aulas de **Web Development da FIAP**, com o objetivo de praticar conceitos fundamentais de React e JavaScript.
 
-Currently, two official plugins are available:
+## 📋 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O Exemplo Food simula o processo básico de realização de um pedido em um aplicativo de delivery.
 
-## React Compiler
+O usuário pode visualizar os produtos disponíveis, adicionar ou remover itens do carrinho, acompanhar os valores do pedido e confirmar uma entrega simulada.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Funcionalidades
 
-## Expanding the ESLint configuration
+* Visualização do cardápio
+* Exibição apenas de produtos disponíveis
+* Adição de produtos ao carrinho
+* Remoção de produtos do carrinho
+* Controle da quantidade de cada produto
+* Cálculo automático do subtotal
+* Cálculo da taxa de entrega
+* Cálculo do valor total do pedido
+* Confirmação do pedido
+* Simulação do status da entrega
+* Interface responsiva
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Conceitos praticados
+
+* React
+* JavaScript
+* `useState`
+* Componentes
+* Renderização de listas com `map()`
+* Filtragem de dados com `filter()`
+* Redução de valores com `reduce()`
+* Operador ternário
+* Spread Operator
+* Imutabilidade
+* Eventos com `onClick`
+* Renderização condicional
+* `setTimeout()`
+* Rotas
+
+## 🛠️ Tecnologias
+
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+
+## 🚀 Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/gbzambo/exemplo-food.git
+```
+
+Entre na pasta:
+
+```bash
+cd exemplo-food
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+Depois, acesse no navegador a URL disponibilizada pelo Vite.
