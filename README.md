@@ -37,7 +37,7 @@ O usuário pode visualizar os produtos disponíveis, adicionar ou remover itens 
 * Eventos com `onClick`
 * Renderização condicional
 * `setTimeout()`
-* Rotas
+
 
 ## 🛠️ Tecnologias
 
@@ -47,6 +47,8 @@ O usuário pode visualizar os produtos disponíveis, adicionar ou remover itens 
 * Tailwind CSS
 
 ## 🚀 Como executar
+
+Acesse o link do vercel: https://exemplo-food-seven.vercel.app/
 
 Clone o repositório:
 
